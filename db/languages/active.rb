@@ -356,5 +356,13 @@
     id: 89,
     name: "Multi-file program",
     is_archived: false,
+  },
+  {
+    id: 90,
+    name: "C++ (GCC 13.0.0) - C++20",
+    is_archived: false,
+    source_file: "main.cpp",
+    compile_cmd: "/usr/local/gcc-13.0.0/bin/g++ -std=c++20 %s main.cpp",
+    run_cmd: "LD_LIBRARY_PATH=/usr/local/gcc-13.0.0/lib64 ./a.out"
   }
 ]
